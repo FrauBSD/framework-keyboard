@@ -8,7 +8,7 @@
 #
 # $Title: framework-keyboard - session glue $
 # $Copyright: 2026 Devin Teske. All rights reserved. $
-# $FrauBSD: framework-keyboard/Makefile 2026-10-11 09:57:53 -0700 Devin Teske $
+# $FrauBSD: framework-keyboard/Makefile 2026-10-11 09:59:46 -0700 Devin Teske $
 #
 ############################################################ PATHS
 
@@ -19,7 +19,7 @@
 
 PREFIX?=	/usr/local
 SHAREDIR?=	${PREFIX}/share
-MANDIR?=	${SHAREDIR}/man/man
+MANDIR?=	${SHAREDIR}/man/man7
 
 ############################################################ FILES
 
@@ -30,8 +30,8 @@ MAN=		man/framework-keyboard.7
 .PHONY: install
 
 install:
-	mkdir -p ${DESTDIR}${MANDIR}8
-	install -m 644 ${MAN} ${DESTDIR}${MANDIR}8
+	mkdir -p ${DESTDIR}${MANDIR}
+	install -m 644 ${MAN} ${DESTDIR}${MANDIR}
 
 ################################################################################
 # END
