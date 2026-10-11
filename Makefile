@@ -8,7 +8,7 @@
 #
 # $Title: framework-keyboard - session glue $
 # $Copyright: 2026 Devin Teske. All rights reserved. $
-# $FrauBSD: framework-keyboard/Makefile 2026-10-11 09:52:02 -0700 Devin Teske $
+# $FrauBSD: framework-keyboard/Makefile 2026-10-11 09:57:53 -0700 Devin Teske $
 #
 ############################################################ PATHS
 
@@ -23,7 +23,7 @@ MANDIR?=	${SHAREDIR}/man/man
 
 ############################################################ FILES
 
-MAN=		man/framework-keyboard.8
+MAN=		man/framework-keyboard.7
 
 ############################################################ TARGETS
 

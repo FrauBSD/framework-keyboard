@@ -1,4 +1,4 @@
-[//]: # ($FrauBSD: framework-keyboard/CHANGELOG.md 2026-10-11 09:55:15 -0700 Devin Teske $)
+[//]: # ($FrauBSD: framework-keyboard/CHANGELOG.md 2026-10-11 09:57:53 -0700 Devin Teske $)
 
 # Changelog
 
@@ -9,6 +9,7 @@ repository for 1.0).
 ## 1.1 (2026-10-11)
 
 - rename `framework_keyboard(8)` to `framework-keyboard(8)`
+- Move `framework-keyboard(8)` to `framework-keyboard(7)`
 
 ## 1.0 (2026-10-06)
 
