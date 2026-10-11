@@ -1,4 +1,4 @@
-[//]: # ($FrauBSD: framework-keyboard/README.md 2026-10-06 22:49:53 -0700 Devin Teske $)
+[//]: # ($FrauBSD: framework-keyboard/README.md 2026-10-11 09:52:02 -0700 Devin Teske $)
 
 # framework-keyboard
 
@@ -32,7 +32,7 @@ Home: [FrauBSD/framework-keyboard](https://github.com/FrauBSD/framework-keyboard
 make install    # PREFIX=/usr/local by default
 ```
 
-Installs `framework_keyboard(8)`.
+Installs `framework-keyboard(8)`.
 
 ## Session
 
@@ -48,5 +48,5 @@ the user session. See `bhotkeys-greeter(1)` for XDM, GDM, and SDDM.
 
 ## See also
 
-`framework_keyboard(8)`, `bhotkeys-greeter(1)`, `bhotkeys`,
+`framework-keyboard(8)`, `bhotkeys-greeter(1)`, `bhotkeys`,
 `bosd(1)`, `hrfkill(4)`

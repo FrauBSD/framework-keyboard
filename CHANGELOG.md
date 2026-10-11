@@ -1,4 +1,4 @@
-[//]: # ($FrauBSD: framework-keyboard/CHANGELOG.md 2026-10-06 22:48:34 -0700 Devin Teske $)
+[//]: # ($FrauBSD: framework-keyboard/CHANGELOG.md 2026-10-11 09:52:02 -0700 Devin Teske $)
 
 # Changelog
 
@@ -8,8 +8,7 @@ repository for 1.0).
 
 ## 1.0 (2026-10-06)
 
-- man page `framework_keyboard(8)` for the Framework Laptop
-  session
+- man page `framework-keyboard(8)` for the Framework Laptop session
 - the Fn and media keys are `bhotkeys-airplane`,
   `bhotkeys-audio`, `bhotkeys-brightness`, `bhotkeys-media`,
   `bhotkeys-mirror`, and `bhotkeys-screenshot`
